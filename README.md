@@ -5,9 +5,7 @@ This project involves creating a website designed to display my professional abi
 Features and Functionality:
 About me: This section contains My background in education and professional experience.
 Skills: This section highlight list of skills in  deffirents majors.
-Projects: This section serves as a platform to exhibit previous projects, designs, or any other relevant accomplishments.
-Contact Information: freelancers or employers can contact me for possible work using this section.
-Having an online presence is increasingly important in a digital world. It enables individuals to control the information available about them online and manage their online reputation.
+Projects: This section of the website is dedicated to showcasing my past projects, designs, and any significant achievements that highlight my capabilities and expertise. It is designed to give freelancers or potential employers a comprehensive view of my work history and accomplishments, facilitating contact for potential collaborations or employment opportunities. In today's digital age, establishing an online presence is more crucial than ever. It allows individuals to curate and control the narrative around their personal and professional identity online, effectively managing their digital footprint and reputation
 --------------------------------------------------------------
 Technologies Used:
 HTML
