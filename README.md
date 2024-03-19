@@ -1,6 +1,6 @@
-Personal Portfolio Website
+Task manager:
 Project Overview:
-This project involves creating a website designed to display my professional abilities, work history, achievements, and personal characteristics. It functions as an online resume, offering a digital portrayal of both my professional and personal persona.
+This project task manager helps to orgonize yyour wrok 
 ---------------------------------------------------------------------------------------------------------
 Features and Functionality:
 About me: This section contains My background in education and professional experience.
@@ -30,5 +30,5 @@ Screenshot of Contact me Page.
 Contact information:
 Name: Abdellatif Haddaji
 Email: haddaji.abdellatif98@gmail.com
-LinkedIn: [www.linkedin.com/in/aya-abdelnabi](https://www.linkedin.com/in/abdellatif-haddaji-55b915269/)
+LinkedIn: [www.linkedin.com/in/](https://www.linkedin.com/in/abdellatif-haddaji-55b915269/)
 GitHub: https://github.com/AbdellatifHaddaji
