@@ -116,6 +116,50 @@ footer {
   color: #ffffff;
   margin: 0 10px;
 }
+/* Existing styles for footer */
+footer {
+  background-color: #2c3e50; /* Dark blue shade for elegance */
+  color: #ecf0f1; /* Soft white for text */
+  text-align: center;
+  padding: 20px 0; /* Adjust padding to make the footer smaller */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for depth */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-content p, .footer-content a {
+  margin: 5px 0; /* Reduce margin for a tighter footer */
+  font-size: 0.9rem; /* Adjust font size for smaller screens */
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 1.2rem; /* Adjust social icon sizes if necessary */
+}
+
+/* Adjusting heading size in the home section */
+.home-section h1 {
+  font-size: 2rem; /* Adjust size as needed for desktop */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .footer-content p, .footer-content a, .social-links a {
+      font-size: 0.8rem; /* Even smaller text for mobile devices */
+  }
+
+  .home-section h1 {
+      font-size: 1.5rem; /* Smaller heading text for mobile */
+  }
+
+  footer {
+      padding: 15px 0; /* Reduce padding on mobile for a slimmer footer */
+  }
+}
+
 
 .social-links a:hover {
   color: #d4d4d4;
@@ -153,4 +197,132 @@ body.dark-mode .dark-mode-toggle {
 
 body.dark-mode .dark-mode-toggle:hover {
   background: #6c757d;
+}
+
+footer {
+  width: 100%;
+  background-color: #007bff; /* A calm blue that matches the navbar for consistency */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* subtle shadow for a "lifted" effect */
+  font-size: 0.9rem;
+  position: fixed; /* Adjust based on preference */
+  bottom: 0;
+  left: 0;
+}
+
+.footer-content {
+  margin: auto;
+  max-width: 960px; /* Ensures content doesn't stretch too wide on larger screens */
+}
+
+.footer-content p, .footer-content a {
+  margin-bottom: 8px; /* Adds a bit more space between lines */
+}
+
+.social-links {
+  margin-top: 10px; /* More space above social links */
+  display: flex;
+  justify-content: center; /* Centers social links */
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 12px;
+  color: #ffffff; /* Ensures legibility */
+  font-size: 20px; /* Larger icons */
+}
+
+.social-links a:hover {
+  color: #d4d4d4; /* Lighter color on hover for a subtle effect */
+  text-decoration: none; /* Removes underline on hover */
+}
+
+/* Optional: Add transitions for smoother hover effects */
+.social-links a {
+  transition: color 0.3s ease-in-out;
+}
+
+
+
+
+/* Enhanced Navbar and Container Styles */
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* General Section Styles */
+section {
+  box-sizing: border-box;
+  max-width: 800px; /* Adjust based on preference */
+  margin: 2rem auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section Specific Styles */
+.about-section {
+  text-align: center; /* Center aligns the text */
+}
+
+.about-section h2 {
+  margin-top: 0;
+  color: #007bff; /* Adds a splash of color */
+}
+
+.about-section p {
+  text-align: justify; /* Justifies the paragraph text for better readability */
+  margin: 20px auto; /* Adds top and bottom margin for spacing */
+  line-height: 1.6; /* Increases line height for readability */
+}
+
+/* Footer Styling Adjustments */
+footer {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed; /* or 'relative' if you don't want it always at the bottom */
+  bottom: 0;
+  left: 0;
+  font-size: 14px; /* Adjust based on your preference */
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .about-section p {
+      text-align: left; /* Adjust text alignment on smaller screens */
+  }
+
+  footer {
+      position: relative; /* Prevents the footer from overlapping content on small screens */
+      padding: 10px 0;
+  }
 }
