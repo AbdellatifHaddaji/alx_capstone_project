@@ -3,9 +3,7 @@ Project Overview:
 This project task manager helps to orgonize yyour wrok 
 ---------------------------------------------------------------------------------------------------------
 Features and Functionality:
-About me: This section contains My background in education and professional experience.
-Skills: This section highlight list of skills in  deffirents majors.
-Projects: This section of the website is dedicated to showcasing my past projects, designs, and any significant achievements that highlight my capabilities and expertise. It is designed to give freelancers or potential employers a comprehensive view of my work history and accomplishments, facilitating contact for potential collaborations or employment opportunities. In today's digital age, establishing an online presence is more crucial than ever. It allows individuals to curate and control the narrative around their personal and professional identity online, effectively managing their digital footprint and reputation
+The Advanced Task Manager is a web-based application designed to enhance productivity by allowing users to efficiently manage their tasks. It offers a suite of features including the ability to add, delete, and mark tasks as complete, along with a dark mode for user comfort. Tasks can be reordered through drag-and-drop functionality, ensuring prioritization is both intuitive and flexible. All user data, including tasks and theme preference, is preserved between sessions using local storage. Additionally, the application features a responsive design for optimal viewing across devices and a dedicated "About Us" page, providing insight into the team behind the project. This combination of utility, user-centric design, and data persistence makes the Advanced Task Manager an essential tool for anyone looking to streamline their daily task management.
 --------------------------------------------------------------
 Technologies Used:
 HTML
@@ -13,21 +11,13 @@ CSS
 JavaScript
 ---------------------------------------------------------
 File Structure
-ALX-Capstone_Project ├── static/ │ ├── css/ | │ └── styles.css | └── js/ | └── index.js ├── templates/ │ ├── index.html │
-├── app.py
+ALX-Capstone_Project ├── task_manager/ │ ├── css/ | │ └── styles.css | └── js/ | └── main.js │ ├── index.html │
+├── about.html
 -----------------------------------------------------------------
-Screenshots or Demo:
-Following are screenshots for website prtotype and flowchart.
 
-Flowchart: Screenshot of flowchart.
-Website prototype: Screenshot of Home page.
-Screenshot of About me Page.
-Screenshot of Skills Page.
-Screenshot of Projects Page.
-Screenshot of Contact me Page.
 ----------------------------------------------------------------------------------------
 Contact information:
 Name: Abdellatif Haddaji
 Email: haddaji.abdellatif98@gmail.com
-LinkedIn: [www.linkedin.com/in/](https://www.linkedin.com/in/abdellatif-haddaji-55b915269/)
+LinkedIn: https://www.linkedin.com/in/abdellatif-haddaji-55b915269/
 GitHub: https://github.com/AbdellatifHaddaji
