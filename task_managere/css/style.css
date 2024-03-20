@@ -143,6 +143,7 @@ footer {
 /* Adjusting heading size in the home section */
 .home-section h1 {
   font-size: 2rem; /* Adjust size as needed for desktop */
+  color :#007bff;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -153,6 +154,7 @@ footer {
 
   .home-section h1 {
       font-size: 1.5rem; /* Smaller heading text for mobile */
+      color :#007bff;
   }
 
   footer {
@@ -284,6 +286,7 @@ section {
   text-align: justify; /* Justifies the paragraph text for better readability */
   margin: 20px auto; /* Adds top and bottom margin for spacing */
   line-height: 1.6; /* Increases line height for readability */
+  color :#007bff;
 }
 
 /* Footer Styling Adjustments */
