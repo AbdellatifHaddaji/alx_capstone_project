@@ -1,0 +1,156 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 60px 0 0; /* Adjust space for navbar */
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #007bff; /* Primary blue */
+  color: #ffffff;
+  padding: 10px 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo, .nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link:hover, .nav-link:focus {
+  background-color: #0056b3; /* Darker blue on hover/focus */
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Task Manager Styles */
+#app {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+input[type="text"], button {
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#task-list li {
+  background: #e9ecef;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#task-list li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Footer Styles */
+footer {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 0.9rem;
+}
+
+.social-links a {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  color: #d4d4d4;
+}
+
+.dark-mode-toggle {
+  background: none;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.dark-mode-toggle:hover {
+  background: #007bff;
+  color: #ffffff;
+}
+
+/* Adjustments for Dark Mode */
+body.dark-mode {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+body.dark-mode #app {
+  background: #495057;
+}
+
+body.dark-mode .dark-mode-toggle {
+  border-color: #6c757d;
+  color: #f8f9fa;
+}
+
+body.dark-mode .dark-mode-toggle:hover {
+  background: #6c757d;
+}
